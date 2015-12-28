@@ -883,3 +883,7 @@ body {
 hr{
     border-color: #000;
 }
+
+.list-unstyled-conctact {
+    font-size: 12px;
+}
