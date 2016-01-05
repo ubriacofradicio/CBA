@@ -868,17 +868,21 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 
-
 /* Map*/
 .map {
     height: 500px;
     padding: 0px;
+
 }
 
 @media(max-width:768px) {
     .map {
         height: 75%;
     }
+}
+
+.maps iframe{
+    pointer-events: none;
 }
 
 hr{
