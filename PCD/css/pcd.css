@@ -1,0 +1,13 @@
+/* css personalizzati  */
+
+.logo_img {
+-moz-box-shadow: inset 10px 10px 70px #ccc;
+-webkit-box-shadow: inset 10px 10px 70px #ccc;
+box-shadow: inset 10px 10px 70px #ccc;
+}
+
+.front_background_img {
+-moz-box-shadow: inset 0px 50px 100px #000;
+-webkit-box-shadow: inset 0px 50px 100px #000;
+box-shadow: inset 0px 50px 100px #000;
+}

@@ -9,8 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
-
+    <title>ProgettoCasaDESIGN</title>
+    <link rel="icon" href="img/favicon.ico" />
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,7 +24,7 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
-
+    <link href="css/pcd.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,25 +41,32 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><p><img style="height:10%; width: 10%"src="img/logo_progettocasa.jpg" /> Progetto Casa DESIGN</p></a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <p>
+                        <img style="height:10%; width: 10%"src="img/logo_progettocasa.jpg" /> ProgettoCasaDESIGN
+                    </p>
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Servizi</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Ambienti</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Creazioni</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#portfolio">Partner</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contatti</a>
                     </li>
                 </ul>
             </div>
@@ -68,16 +75,64 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
+    <header class="front_background_img">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">bla bla</h1>
+                <h1 id="homeHeading"><img class="logo_img" src="img/logo_progettocasa_trasparente.png" /> </h1>
                 <hr>
-                <p>Powered by now </p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Scopri altro</a>
+                <p>Armonia fra forma e funzione, evoluzione tecnologica e progettuale al ritmo con i tempi</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Scopri</a>
             </div>
         </div>
     </header>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Al Tuo Servizio</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-pencil text-primary sr-icons"></i>
+                        <h3>Progettazione</h3>
+                        <p class="text-muted">Studiamo su misura il vostro ambiente per ottimizzare al meglio le vostre esigenze</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-home text-primary sr-icons"></i>
+                        <h3>Consulenza</h3>
+                        <p class="text-muted">Contattaci e verremo a casa tua per dare valore ad ogni vostro desiderio di arredamento</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-wrench text-primary sr-icons"></i>
+                        <h3>Installazione</h3>
+                        <p class="text-muted">Produzione e montaggio valorizzando il meglio della tradizione artigianale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section class="bg-primary" id="about">
         <div class="container">
@@ -92,48 +147,7 @@
         </div>
     </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
