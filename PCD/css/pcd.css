@@ -13,6 +13,9 @@ width: 130px;
 box-shadow: inset 0px 50px 100px #000;
 }
 
+aside.clients img {
+  margin: 50px auto;
+}
 
 
 /* Map */
